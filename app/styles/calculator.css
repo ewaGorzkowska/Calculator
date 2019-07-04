@@ -24,13 +24,14 @@
     background-size: 236px 117px;
 }
 .display {
-    grid-column: 1/5;
-    grid-row:  1/2;
+    display: grid;
+    grid-area: 1/1/1/5;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: 1fr;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-.signs {
-    grid-column: 4/5;
-    grid-row: 1/5;
-}
+
 .btn-1 {
     background-image: url("../images/button_1.png");
     
@@ -67,3 +68,84 @@
     background-image: url("../images/button_9.png");
     
 }
+.btn-plus {
+    background-image: url("../images/button_plus.png");
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+.btn-equal {
+    background-image: url("../images/button_equal.png");
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+.btn-minus {
+    background-image: url("../images/button_minus.png");
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.btn-multiplication {
+    background-image: url("../images/button_multiplication.png");
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.btn-dot {
+    background-image: url("../images/button_dot.png");
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+.btn-1:hover {
+background-image: url("../images/button_1_press.png");
+}
+.btn-2:hover {
+    background-image: url("../images/button_2_press.png");
+    }
+.btn-3:hover {
+    background-image: url("../images/button_3_press.png");
+    }
+.btn-4:hover {
+        background-image: url("../images/button_4_press.png");
+        }
+.btn-5:hover {
+        background-image: url("../images/button_5_press.png");
+        }
+.btn-6:hover {
+        background-image: url("../images/button_6_press.png");
+        }
+.btn-7:hover {
+        background-image: url("../images/button_7_press.png");
+        }
+.btn-8:hover {
+        background-image: url("../images/button_8_press.png");
+        }
+.btn-9:hover {
+        background-image: url("../images/button_9_press.png");
+        }
+.btn-0:hover {
+        background-image: url("../images/button_0_press.png");
+
+}
+.btn-plus:hover {
+    background-image: url("../images/button_plus_press.png");
+
+}        
+
+.btn-minus:hover {
+    background-image: url("../images/button_minus_press.png");
+
+}  
+
+.btn-equal:hover {
+    background-image: url("../images/button_equal_press.png");
+
+}              
+
+.btn-multiplication:hover {
+    background-image: url("../images/button_multiplication_press.png");
+
+}        
+.btn-dot:hover {
+    background-image: url("../images/button_dot_press.png");
+
+} 
+
